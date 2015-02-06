@@ -1,6 +1,6 @@
 # yii2-datepicker-field
 The Yii2 Datepicker Field is a simple wrapper for the <a href="https://github.com/kartik-v/yii2-widget-datepicker">Yii2 Widget DatePicker</a> extension.
-It simplify the use of the datepicker fields
+It simplify the use of the datepicker fields and avoid repetetive code.
 
 ## Installation
 
@@ -26,7 +26,7 @@ to the ```require``` section of your `composer.json` file.
 ```php
 use samirmember\helpers\DatePicker;
 
-  $form->field($model, 'my_date_attribute')->widget(DatePicker::classname());
+$form->field($model, 'my_date_attribute')->widget(DatePicker::classname());
 ```
 
 ## License
