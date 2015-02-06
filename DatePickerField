@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @copyright Copyright &copy; Samir IZZA, 2015
+ * @package yii2-helpers
+ * @subpackage yii2-datepicker-field
+ * @version 1.0.0
+ */
+
+namespace vendor\samirmember\helpers;
+
+use Yii;
+use yii\helpers\Html;
+use yii\helpers\ArrayHelper;
+use yii\base\InvalidConfigException;
+
+/**
+ * DatePickerField widget is a Yii2 wrapper for the yii2-widget-datepicker widget of kartik-v plugin
+ *
+ * @author Samir IZZA <samirmember@gmail.com>
+ * @since 1.0
+ * @see https://dz.linkedin.com/pub/samir-izza/36/9a6/4a
+ */
+class DatePickerField extends \kartik\yii2-widget-datepicker\DatePicker
+{
+
+}
